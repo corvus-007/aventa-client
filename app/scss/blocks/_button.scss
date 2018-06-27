@@ -12,8 +12,8 @@
   text-decoration: none;
   letter-spacing: 0.025em;
   color: #ffffff;
-  background-color: #f4511e;
-  background-image: linear-gradient(to right, #f4511e, #ff7a3c);
+  background-color: $accent-color;
+  background-image: linear-gradient(to right, $accent-color, #ff7a3c);
   border: none;
   box-sizing: border-box;
   border-radius: 4px;
@@ -26,12 +26,12 @@
   &:hover,
   &:focus {
     color: #ffffff;
-    background-color: lighten(#f4511e, 8%);
+    background-color: lighten($accent-color, 8%);
   }
 
   &:active {
     color: #ffffff;
-    background-color: darken(#f4511e, 8%);
+    background-color: darken($accent-color, 8%);
   }
 }
 

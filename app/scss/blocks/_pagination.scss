@@ -82,7 +82,7 @@
       right: 0;
       bottom: 0;
       height: 4px;
-      background-color: rgba(#f4511e, 0.1);
+      background-color: rgba($accent-color, 0.1);
       // background-color: rgba(#000, 0.1);
     }
   }
@@ -92,6 +92,6 @@
   position: absolute;
   bottom: 0;
   height: 4px;
-  background-color: #f4511e;
+  background-color: $accent-color;
   transition: 0.5s linear, height 0.25s;
 }

@@ -2,6 +2,12 @@
 
 }
 
+.catalog-nav__toggle {
+  width: 100%;
+  min-width: 100px;
+  max-width: 100%;
+}
+
 .catalog-nav__list {
   position: absolute;
   z-index: 2;

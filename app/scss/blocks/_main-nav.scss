@@ -31,7 +31,7 @@
   &:hover,
   &:focus {
     color: #212121;
-    // border-bottom-color: #FF1744;
+    // border-bottom-color: $accent-color;
   }
 }
 
@@ -51,7 +51,7 @@
   height: 18px;
   font-size: 12px;
   color: #fff;
-  background-color: #FF1744;
+  background-color: $accent-color;
   border-radius: 50%;
   box-shadow: 0px 3px 3px rgba(37, 35, 35, 0.25);
 
@@ -86,6 +86,6 @@
   position: absolute;
   bottom: 0;
   height: 4px;
-  background-color: #FF3D00;
+  background-color: $accent-color;
   transition: 0.5s linear, height 0.25s;
 }
