@@ -1,0 +1,49 @@
+// Button
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  background-color: #f4511e;
+  background-image: linear-gradient(to right, #f4511e, #ff7a3c);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  user-select: none;
+  transition-property: background, color, border-color;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: lighten(#f4511e, 8%);
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: darken(#f4511e, 8%);
+  }
+}
+
+.button__icon {
+  display: block;
+  fill: currentColor;
+
+  &--left {
+    margin-right: 8px;
+  }
+
+  &--right {
+    margin-left: 8px;
+  }
+}

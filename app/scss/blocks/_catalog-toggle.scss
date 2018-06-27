@@ -1,0 +1,21 @@
+.catalog-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #fff;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+
+  &:hover,
+  &:focus {
+    background-color: #FAFAFA;
+  }
+}
+
+.catalog-toggle__icon {
+  width: 28px;
+  height: 28px;
+}

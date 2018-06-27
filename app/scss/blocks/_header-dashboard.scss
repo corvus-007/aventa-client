@@ -1,0 +1,21 @@
+.header-dashboard {
+  background-color: #fff;
+  box-shadow: 0px 2px 2px rgba(37, 35, 35, 0.25);
+}
+
+.header-dashboard__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header-dashboard__catalog-nav {
+  position: relative;
+  flex-basis: 232px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  margin-right: 90px;
+}
+
+.header-dashboard__search {
+  min-width: 50%;
+}
