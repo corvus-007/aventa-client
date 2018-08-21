@@ -10,6 +10,25 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  $('.user-nav__link').on('click', function(event) {
+    event.preventDefault();
+    var $item = $(this).closest('.user-nav__item');
+    var $dropdown = $item.find('.user-nav__dropdown');
+    $dropdown.addClass('user-nav__dropdown--opened');
+
+    function handlerDocumentClick(event) {
+      var target = event.target;
+
+      if ($(target).closest($dropdown).length) {
+        return;
+      }
+      $dropdown.removeClass('user-nav__dropdown--opened');
+      $(document).off('mousedown', handlerDocumentClick);
+    }
+
+    $(document).on('mousedown', handlerDocumentClick);
+  });
+
   window.catalogNav = (function() {
     "use strict";
     console.log("catalog-nav");
