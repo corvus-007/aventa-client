@@ -1,3 +1,4 @@
+/* base start */
 html {
   font-size: $font-size;
 }
@@ -69,3 +70,4 @@ img {
 .visually-hidden {
   @include visually-hidden();
 }
+/* base end */
